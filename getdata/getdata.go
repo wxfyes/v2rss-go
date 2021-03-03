@@ -36,7 +36,7 @@ func ExampleScrape(count string, cors bool, tow int) (string, bool) {
 	var findthis string
 	c, err = strconv.Atoi(count)
 	var url string
-	url = "https://t.me/SSRSUB"
+	url = "https://raw.githubusercontent.com/ssrsub/ssr/master/v2ray"
 	if cors {
 		url = strings.Join([]string{"https://cors.izumana.ml", url}, "/?url=")
 	}
